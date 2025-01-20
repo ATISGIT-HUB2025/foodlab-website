@@ -4799,3 +4799,9 @@ option {
     display: inline-block;
   }
 }
+
+.inquiry-btn {
+  font-size: 12px;
+  background: #ff5722;
+  color: #fff;
+}

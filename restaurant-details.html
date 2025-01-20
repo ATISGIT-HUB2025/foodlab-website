@@ -110,7 +110,7 @@
                     </li>
                     <li><a href="latest-restaurants.html">Our Stall</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li class="active"><a href="offer.html">Promotion</a></li>
+
                     <li><a href="blogs.html">Blogs</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
@@ -127,17 +127,6 @@
                       </div>
                     </div>
                   </div>
-
-                  <div class="header-action">
-                    <a class="btn--base" href="register.html"
-                      ><i class="fa fa-user" style="font-size: 12px"></i
-                      >Register</a
-                    >
-                    <a class="btn--base" href="login.html"
-                      ><i class="fa fa-user" style="font-size: 12px"></i
-                      >Login</a
-                    >
-                  </div>
                 </div>
               </nav>
             </div>
@@ -151,99 +140,6 @@
         class="inner-banner-section banner-section bg_img"
         data-background="https://img.freepik.com/premium-photo/concept-tasty-breakfast-with-boiled-eggs-top-view_185193-38305.jpg?w=1060"
       ></section>
-      <div class="cart-sidebar-area" id="cart-sidebar-area">
-        <div class="cart-sidebar-content">
-          <div
-            class="cart-header d-flex align-items-center justify-content-between mb-20 flex-wrap"
-          >
-            <h4 class="title mb-0 text-center">
-              Your Order From Winifred Waters
-            </h4>
-            <span class="side-sidebar-close-btn"
-              ><i class="fas fa-times"></i
-            ></span>
-          </div>
-          <div class="card-content">
-            <div class="food-item">
-              <div class="food-wrapper">
-                <div class="food-name-qty"></div>
-                <div class="food-cart-slider-area">
-                  <h4 class="title">More Foods To Order</h4>
-                  <div class="food-cart-slider-inner">
-                    <div class="food-cart-slider">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img src="assets/images/egg/2.jpg" alt="food" />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Omelet</h6>
-                                <p>
-                                  Lorem ipsum, dolor sit amet consectetur
-                                  adipisicing elit. Ipsam enim aliquid nobis
-                                  accusantium quod voluptate consectetur
-                                  recusandae fugiat tempora atque.
-                                </p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="1"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.50.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="swiper-slide">
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img src="assets/images/egg/1.jpg" alt="food" />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Omelet</h6>
-                                <p>Egg Item</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="2"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">RS.20.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="slider-prev">
-                        <i class="fa-solid fa-chevron-left"></i>
-                      </div>
-                      <div class="slider-next">
-                        <i class="fa-solid fa-chevron-right"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <ul class="food-order-list">
-                  <li>Subtotal <span class="subTotal"></span></li>
-                  <li>Delivery Fee <span class="deliveryFee"></span></li>
-                  <li>Vat <span class="vat"></span></li>
-                  <li>
-                    <span class="fw-bold">Total(Incl.vat)</span>
-                    <span class="fw-bold total"></span>
-                  </li>
-                </ul>
-                <div class="checkout-btn mt-20">
-                  <a class="btn--base w-100" href="checkout.html"
-                    >Proceed to checkout</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <section class="details-section bg--gray">
         <div class="restaurants-details-area">
@@ -320,7 +216,15 @@
                           elit. Labore quaerat minima cum deserunt tenetur, quae
                           aliquam facere ipsam aspernatur quisquam?....
                         </p>
-                        <span class="food-fee">RS.10.00 INR</span>
+                        <!-- Button trigger modal -->
+                        <button
+                          type="button"
+                          class="inquiry-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#inquiryModal"
+                        >
+                          Enquiry Now
+                        </button>
                       </div>
                       <div class="food-thumb">
                         <img src="assets/images/egg/1.jpg" alt="food" />
@@ -362,7 +266,15 @@
                           egestas neque eu enim. Nulla neque dolor, sagittis
                           eget, iaculis quis, molestie non, velit....
                         </p>
-                        <span class="food-fee">Rs.150.00 INR</span>
+                        <!-- Button trigger modal -->
+                        <button
+                          type="button"
+                          class="inquiry-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#inquiryModal"
+                        >
+                          Enquiry Now
+                        </button>
                       </div>
                       <div class="food-thumb">
                         <img src="assets/images/egg/7.webp" alt="food" />
@@ -404,7 +316,15 @@
                           iaculis. Nulla consequat massa quis enim. Fusce
                           pharetra convallis urna. Vestibulum u...
                         </p>
-                        <span class="food-fee">RS.130.00 INR</span>
+                        <!-- Button trigger modal -->
+                        <button
+                          type="button"
+                          class="inquiry-btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#inquiryModal"
+                        >
+                          Enquiry Now
+                        </button>
                       </div>
                       <div class="food-thumb">
                         <img src="assets/images/egg/5.jpg" alt="food" />
@@ -552,320 +472,6 @@
           </div>
         </div>
       </div>
-
-      <div class="cart-sidebar-area active" id="cart-sidebar-area">
-        <div class="cart-sidebar-content">
-          <div
-            class="cart-header d-flex align-items-center justify-content-between mb-20 flex-wrap"
-          >
-            <h4 class="title mb-0 text-center">Your Order From Egg Stall</h4>
-            <span class="side-sidebar-close-btn"
-              ><i class="fas fa-times"></i
-            ></span>
-          </div>
-          <div class="card-content">
-            <div class="food-item">
-              <div class="food-wrapper">
-                <div class="food-name-qty">
-                  <div class="food-content">
-                    <h4 class="title">Aandaaz</h4>
-                  </div>
-                  <div
-                    class="food-action d-flex flex-wrap align-items-center justify-content-between"
-                  >
-                    <div class="food-action-text">
-                      <span>Quantity</span>
-                    </div>
-                    <div class="food-quantity">
-                      <div class="food-plus-minus">
-                        <div
-                          class="dec qtybutton minus-food-cart"
-                          data-foodid="52"
-                        >
-                          -
-                        </div>
-                        <input
-                          class="food-plus-minus-box integer-validation"
-                          type="text"
-                          name="foodqty"
-                          value="2"
-                          readonly=""
-                        />
-                        <div
-                          class="inc qtybutton add-food-cart"
-                          data-foodid="52"
-                        >
-                          +
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="food-cart-slider-area">
-                  <h4 class="title">More Foods To Order</h4>
-                  <div class="food-cart-slider-inner">
-                    <div class="food-cart-slider swiper-container-horizontal">
-                      <div
-                        class="swiper-wrapper"
-                        style="
-                          transform: translate3d(-294px, 0px, 0px);
-                          transition-duration: 0ms;
-                        "
-                      >
-                        <div
-                          class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
-                          data-swiper-slide-index="5"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7abaa1cca1720613562.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Evviva Italian</h6>
-                                <p>Pizza</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="57"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.230.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide swiper-slide-active"
-                          data-swiper-slide-index="0"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7aa78dcbf1720613543.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Aandaaz</h6>
-                                <p>BBQ</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="52"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.170.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide swiper-slide-next"
-                          data-swiper-slide-index="1"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7a9ee5cb11720613534.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Steak Republic</h6>
-                                <p>TEA</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="53"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">RS.180.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide"
-                          data-swiper-slide-index="2"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7afa652f21720613626.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Evviva Italian Ristorante</h6>
-                                <p>Sandwich</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="54"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.220.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide"
-                          data-swiper-slide-index="3"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7ae1a366c1720613601.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Arax</h6>
-                                <p>Sandwich</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="55"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.190.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide"
-                          data-swiper-slide-index="4"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7abaa1cca1720613562.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Pizzaburg</h6>
-                                <p>Pizza</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="56"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.300.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide swiper-slide-duplicate-prev"
-                          data-swiper-slide-index="5"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7aa78dcbf1720613543.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Evviva Italian</h6>
-                                <p>Pizza</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="57"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.230.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
-                          data-swiper-slide-index="0"
-                          style="width: 284px; margin-right: 10px"
-                        >
-                          <div class="food-item">
-                            <div class="food-wrapper">
-                              <div class="food-thumb">
-                                <img
-                                  src="assets/images/food/668e7a9ee5cb11720613534.png"
-                                  alt="food"
-                                />
-                              </div>
-                              <div class="food-content">
-                                <h6 class="title">Aandaaz</h6>
-                                <p>BBQ</p>
-                                <span
-                                  class="cart-badge add-food-cart"
-                                  data-foodid="52"
-                                  ><i class="fa fa-plus"></i
-                                ></span>
-                                <span class="food-fee">Rs.170.00 INR</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="slider-prev"
-                        tabindex="0"
-                        role="button"
-                        aria-label="Previous slide"
-                      >
-                        <i class="fa fa-angle-left"></i>
-                      </div>
-                      <div
-                        class="slider-next"
-                        tabindex="0"
-                        role="button"
-                        aria-label="Next slide"
-                      >
-                        <i class="fa fa-angle-right"></i>
-                      </div>
-                      <span
-                        class="swiper-notification"
-                        aria-live="assertive"
-                        aria-atomic="true"
-                      ></span>
-                    </div>
-                  </div>
-                </div>
-                <ul class="food-order-list">
-                  <li>Subtotal <span class="subTotal">Rs.340.00 INR</span></li>
-                  <li>
-                    Delivery Fee <span class="deliveryFee">Rs.5.00 INR</span>
-                  </li>
-                  <li>Vat <span class="vat">Rs.17.00 INR</span></li>
-                  <li>
-                    <span class="fw-bold">Total(Incl.vat)</span>
-                    <span class="fw-bold total">Rs.362.00 INR</span>
-                  </li>
-                </ul>
-                <div class="checkout-btn mt-20">
-                  <a class="btn--base w-100" href="checkout.html"
-                    >Proceed to checkout</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
     <section class="footer-area">
@@ -982,6 +588,87 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="inquiryModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Inquiry Now</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row justify-content-center mb-10-none">
+              <div class="col-lg-6 col-md-6 form-group">
+                <input
+                  class="form--control"
+                  name="name"
+                  type="text"
+                  value=""
+                  required=""
+                  placeholder="Your Name*"
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 form-group">
+                <input
+                  class="form--control"
+                  name="email"
+                  type="email"
+                  value=""
+                  placeholder="Your Email*"
+                  required=""
+                />
+              </div>
+              <div class="col-lg-6 col-md-6 form-group">
+                <input
+                  class="form--control"
+                  name="phone"
+                  type="text"
+                  value=""
+                  placeholder="Your Phone*"
+                  required=""
+                />
+              </div>
+              <div class="col-lg-6 form-group">
+                <input
+                  class="form--control"
+                  name="subject"
+                  type="text"
+                  value=""
+                  placeholder="Subject*"
+                  required=""
+                />
+              </div>
+              <div class="col-lg-12 form-group">
+                <textarea
+                  class="form--control"
+                  name="message"
+                  placeholder="Your Message*"
+                  required=""
+                ></textarea>
+              </div>
+
+              <div class="col-lg-12 form-group">
+                <button class="btn--base mt-20" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="assets/global/js/jquery-3.7.1.min.js"></script>
     <script src="assets/global/js/bootstrap.bundle.min.js"></script>
